@@ -14,10 +14,10 @@ const openSans = Open_Sans({
 });
 export async function generateMetadata() {
   return {
-    title: "De Anza Hacks V2.5 2024",
+    title: "DAHacks 2024 Fall",
     description:
-      "Cupertino’s leading hackathon is back! Join us for our 3rd year with 200+ hackers across the state!",
-    applicationName: "De Anza Hacks V2.5 2024",
+      "Cupertino’s leading hackathon is back! Join us for our 4th year with 200+ hackers across the state!",
+    applicationName: "De Anza Hacks",
     keywords: ["De Anza Hacks", "Hackathon", "Cupertino", "California"],
     generator: "De Anza Hacks",
 
@@ -62,7 +62,7 @@ export default function RootLayout({
       `}
         </Script>
       </head>
-      <body className={`${openSans.className} bg-slate-950`}>{children}</body>
+      <body className={`${openSans.className} bg-da_red`}>{children}</body>
     </html>
   );
 }
